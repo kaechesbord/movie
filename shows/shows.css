@@ -1,0 +1,11 @@
+.cont{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
