@@ -20,13 +20,13 @@ body{
 {
 	border: 5px solid white;
 	border-color: transparent;
-	background-color: #b2bec3;
+	background-color: #63da13;
 }
 
 ::-webkit-scrollbar
 {
 	width: 15px;
-	background-color: #dfe6e9;
+	background-color: #e9dfe8;
 }
 
 ::-webkit-scrollbar-thumb

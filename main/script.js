@@ -14,6 +14,7 @@ let content = []
 const url = "https://api.themoviedb.org/3/movie/popular?api_key=ac611aa60fbb0355792b075ff8337fbe&language=en-US&page=1"
 const imgpath = "https://image.tmdb.org/t/p/w300/"
 async function load() {
+
     const response = await fetch(url)
     const data = await response.json()
     const savior = data.results;
